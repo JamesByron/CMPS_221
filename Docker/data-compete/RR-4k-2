@@ -1,0 +1,180 @@
+Performing test RR-4k-8T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random read test
+Threads started!
+FATAL: Failed to read file! file: 27 pos: 67018752 errno = 0 ()
+FATAL: Failed to read file! file: 63 pos: 67096576 errno = 0 ()
+FATAL: Failed to read file! file: 12 pos: 67051520 errno = 0 ()
+FATAL: Failed to read file! file: 5 pos: 67096576 errno = 0 ()
+FATAL: Failed to read file! file: 22 pos: 67104768 errno = 0 ()
+FATAL: Failed to read file! file: 41 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 27 pos: 67072000 errno = 0 ()
+FATAL: Failed to read file! file: 49 pos: 67063808 errno = 0 ()
+Done.
+
+Operations performed:  24952 Read, 0 Write, 0 Other = 24952 Total
+Read 97.469Mb  Written 0b  Total transferred 97.469Mb  (1.434Gb/sec)
+375907.24 Requests/sec executed
+
+Test execution summary:
+    total time:                          0.0664s
+    total number of events:              24952
+    total time taken by event execution: 0.2946
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                 13.46ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           3119.0000/2070.25
+    execution time (avg/stddev):   0.0368/0.01
+
+Performing test RR-4k-8T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random read test
+Threads started!
+FATAL: Failed to read file! file: 12 pos: 67080192 errno = 0 ()
+FATAL: Failed to read file! file: 38 pos: 67104768 errno = 0 ()
+FATAL: Failed to read file! file: 34 pos: 67080192 errno = 0 ()
+FATAL: Failed to read file! file: 5 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 31 pos: 67072000 errno = 0 ()
+FATAL: Failed to read file! file: 56 pos: 67092480 errno = 0 ()
+FATAL: Failed to read file! file: 48 pos: 67059712 errno = 0 ()
+FATAL: Failed to read file! file: 44 pos: 67092480 errno = 0 ()
+Done.
+
+Operations performed:  32679 Read, 0 Write, 0 Other = 32679 Total
+Read 127.65Mb  Written 0b  Total transferred 127.65Mb  (1.5319Gb/sec)
+401570.59 Requests/sec executed
+
+Test execution summary:
+    total time:                          0.0814s
+    total number of events:              32679
+    total time taken by event execution: 0.3747
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                 15.46ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           4084.8750/2248.83
+    execution time (avg/stddev):   0.0468/0.02
+
+Performing test RR-4k-8T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random read test
+Threads started!
+FATAL: Failed to read file! file: 38 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 12 pos: 67088384 errno = 0 ()
+FATAL: Failed to read file! file: 31 pos: 67063808 errno = 0 ()
+FATAL: Failed to read file! file: 61 pos: 67080192 errno = 0 ()
+FATAL: Failed to read file! file: 56 pos: 67096576 errno = 0 ()
+FATAL: Failed to read file! file: 31 pos: 67067904 errno = 0 ()
+FATAL: Failed to read file! file: 6 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 31 pos: 67084288 errno = 0 ()
+Done.
+
+Operations performed:  61857 Read, 0 Write, 0 Other = 61857 Total
+Read 241.63Mb  Written 0b  Total transferred 241.63Mb  (1.7606Gb/sec)
+461523.11 Requests/sec executed
+
+Test execution summary:
+    total time:                          0.1340s
+    total number of events:              61857
+    total time taken by event execution: 0.2860
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  8.47ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           7732.1250/11889.90
+    execution time (avg/stddev):   0.0358/0.04
+
+Performing test RR-4k-8T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random read test
+Threads started!
+FATAL: Failed to read file! file: 51 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 61 pos: 67100672 errno = 0 ()
+FATAL: Failed to read file! file: 31 pos: 67100672 errno = 0 ()
+(last message repeated 1 times)
+FATAL: Failed to read file! file: 12 pos: 67084288 errno = 0 ()
+FATAL: Failed to read file! file: 5 pos: 67096576 errno = 0 ()
+FATAL: Failed to read file! file: 6 pos: 67092480 errno = 0 ()
+FATAL: Failed to read file! file: 28 pos: 67100672 errno = 0 ()
+Done.
+
+Operations performed:  48709 Read, 0 Write, 0 Other = 48709 Total
+Read 190.27Mb  Written 0b  Total transferred 190.27Mb  (2.4297Gb/sec)
+636939.31 Requests/sec executed
+
+Test execution summary:
+    total time:                          0.0765s
+    total number of events:              48709
+    total time taken by event execution: 0.4107
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                 11.34ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           6088.6250/3495.41
+    execution time (avg/stddev):   0.0513/0.01
+

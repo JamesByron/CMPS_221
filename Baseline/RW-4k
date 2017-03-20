@@ -1,0 +1,943 @@
+Performing test RW-4k-1T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  0 Read, 106400 Write, 68074 Other = 174474 Total
+Read 0b  Written 415.62Mb  Total transferred 415.62Mb  (6.927Mb/sec)
+ 1773.31 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0008s
+    total number of events:              106400
+    total time taken by event execution: 0.6929
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  0.11ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           106400.0000/0.00
+    execution time (avg/stddev):   0.6929/0.00
+
+Performing test RW-4k-1T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  0 Read, 104100 Write, 66606 Other = 170706 Total
+Read 0b  Written 406.64Mb  Total transferred 406.64Mb  (6.7773Mb/sec)
+ 1734.99 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0003s
+    total number of events:              104100
+    total time taken by event execution: 0.4452
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.10ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           104100.0000/0.00
+    execution time (avg/stddev):   0.4452/0.00
+
+Performing test RW-4k-1T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  0 Read, 103800 Write, 66422 Other = 170222 Total
+Read 0b  Written 405.47Mb  Total transferred 405.47Mb  (6.7578Mb/sec)
+ 1729.99 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0003s
+    total number of events:              103800
+    total time taken by event execution: 0.4525
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.09ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           103800.0000/0.00
+    execution time (avg/stddev):   0.4525/0.00
+
+Performing test RW-4k-1T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+Operations performed:  0 Read, 100500 Write, 64258 Other = 164758 Total
+Read 0b  Written 392.58Mb  Total transferred 392.58Mb  (6.5428Mb/sec)
+ 1674.95 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0016s
+    total number of events:              100500
+    total time taken by event execution: 0.4489
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.10ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           100500.0000/0.00
+    execution time (avg/stddev):   0.4489/0.00
+
+Performing test RW-4k-2T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+Operations performed:  0 Read, 172496 Write, 112841 Other = 285337 Total
+Read 0b  Written 673.81Mb  Total transferred 673.81Mb  (11.23Mb/sec)
+ 2874.89 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0009s
+    total number of events:              172496
+    total time taken by event execution: 0.7358
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.13ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           86248.0000/3025.00
+    execution time (avg/stddev):   0.3679/0.01
+
+Performing test RW-4k-2T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+Operations performed:  0 Read, 172045 Write, 111581 Other = 283626 Total
+Read 0b  Written 672.05Mb  Total transferred 672.05Mb  (11.201Mb/sec)
+ 2867.41 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0002s
+    total number of events:              172045
+    total time taken by event execution: 0.7644
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.13ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           86022.5000/372.50
+    execution time (avg/stddev):   0.3822/0.00
+
+Performing test RW-4k-2T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+Operations performed:  0 Read, 152639 Write, 98733 Other = 251372 Total
+Read 0b  Written 596.25Mb  Total transferred 596.25Mb  (9.9373Mb/sec)
+ 2543.96 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0006s
+    total number of events:              152639
+    total time taken by event execution: 0.6345
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.12ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           76319.5000/2628.50
+    execution time (avg/stddev):   0.3173/0.01
+
+Performing test RW-4k-2T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+Operations performed:  0 Read, 172274 Write, 112228 Other = 284502 Total
+Read 0b  Written 672.95Mb  Total transferred 672.95Mb  (11.216Mb/sec)
+ 2871.21 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0006s
+    total number of events:              172274
+    total time taken by event execution: 0.7592
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  0.12ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           86137.0000/921.00
+    execution time (avg/stddev):   0.3796/0.01
+
+Performing test RW-4k-3T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+Operations performed:  0 Read, 198986 Write, 144275 Other = 343261 Total
+Read 0b  Written 777.29Mb  Total transferred 777.29Mb  (12.955Mb/sec)
+ 3316.38 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0009s
+    total number of events:              198986
+    total time taken by event execution: 1.0190
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  8.03ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           66328.6667/1213.77
+    execution time (avg/stddev):   0.3397/0.01
+
+Performing test RW-4k-3T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+Operations performed:  0 Read, 202601 Write, 145012 Other = 347613 Total
+Read 0b  Written 791.41Mb  Total transferred 791.41Mb  (13.19Mb/sec)
+ 3376.64 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0008s
+    total number of events:              202601
+    total time taken by event execution: 1.0200
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  1.02ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           67533.6667/928.36
+    execution time (avg/stddev):   0.3400/0.01
+
+Performing test RW-4k-3T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+Operations performed:  0 Read, 195832 Write, 143731 Other = 339563 Total
+Read 0b  Written 764.97Mb  Total transferred 764.97Mb  (12.749Mb/sec)
+ 3263.81 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0010s
+    total number of events:              195832
+    total time taken by event execution: 1.0287
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  1.00ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           65277.3333/496.49
+    execution time (avg/stddev):   0.3429/0.01
+
+Performing test RW-4k-3T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+Operations performed:  0 Read, 176913 Write, 118833 Other = 295746 Total
+Read 0b  Written 691.07Mb  Total transferred 691.07Mb  (11.396Mb/sec)
+ 2917.25 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.6437s
+    total number of events:              176913
+    total time taken by event execution: 0.8136
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.00ms
+         max:                                  1.02ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           58971.0000/28648.88
+    execution time (avg/stddev):   0.2712/0.12
+
+Performing test RW-4k-4T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+FATAL: Incorrect file discovered in request
+(last message repeated 2 times)
+Done.
+
+Operations performed:  0 Read, 406 Write, 205 Other = 611 Total
+Read 0b  Written 1.5859Mb  Total transferred 1.5859Mb  (28.726Mb/sec)
+ 7353.88 Requests/sec executed
+
+Test execution summary:
+    total time:                          0.0552s
+    total number of events:              406
+    total time taken by event execution: 0.0022
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  0.04ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           101.5000/13.90
+    execution time (avg/stddev):   0.0006/0.00
+
+Performing test RW-4k-4T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Operations performed:  0 Read, 238260 Write, 171778 Other = 410038 Total
+Read 0b  Written 930.7Mb  Total transferred 930.7Mb  (15.336Mb/sec)
+ 3926.02 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.6874s
+    total number of events:              238260
+    total time taken by event execution: 1.6294
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  1.10ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           59565.0000/742.26
+    execution time (avg/stddev):   0.4074/0.01
+
+Performing test RW-4k-4T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Operations performed:  0 Read, 239784 Write, 171839 Other = 411623 Total
+Read 0b  Written 936.66Mb  Total transferred 936.66Mb  (15.548Mb/sec)
+ 3980.22 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.2439s
+    total number of events:              239784
+    total time taken by event execution: 1.6462
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                 29.25ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           59946.0000/1698.18
+    execution time (avg/stddev):   0.4115/0.02
+
+Performing test RW-4k-4T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Operations performed:  0 Read, 238585 Write, 169074 Other = 407659 Total
+Read 0b  Written 931.97Mb  Total transferred 931.97Mb  (15.532Mb/sec)
+ 3976.32 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0015s
+    total number of events:              238585
+    total time taken by event execution: 1.6445
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  1.50ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           59646.2500/1434.09
+    execution time (avg/stddev):   0.4111/0.01
+
+Performing test RW-4k-8T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+FATAL: Incorrect file discovered in request
+(last message repeated 6 times)
+Done.
+
+Operations performed:  0 Read, 20698 Write, 13113 Other = 33811 Total
+Read 0b  Written 80.852Mb  Total transferred 80.852Mb  (28.425Mb/sec)
+ 7276.73 Requests/sec executed
+
+Test execution summary:
+    total time:                          2.8444s
+    total number of events:              20698
+    total time taken by event execution: 0.2863
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  1.68ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           2587.2500/231.21
+    execution time (avg/stddev):   0.0358/0.00
+
+Performing test RW-4k-8T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 7 times)
+Done.
+
+Operations performed:  0 Read, 345396 Write, 219776 Other = 565172 Total
+Read 0b  Written 1.3176Gb  Total transferred 1.3176Gb  (22.13Mb/sec)
+ 5665.16 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.9684s
+    total number of events:              345396
+    total time taken by event execution: 6.7697
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.02ms
+         max:                               1697.08ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           43174.5000/879.37
+    execution time (avg/stddev):   0.8462/0.56
+
+Performing test RW-4k-8T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+Time limit exceeded, exiting...
+(last message repeated 6 times)
+Done.
+
+Operations performed:  0 Read, 319444 Write, 203287 Other = 522731 Total
+Read 0b  Written 1.2186Gb  Total transferred 1.2186Gb  (20.797Mb/sec)
+ 5323.97 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0011s
+    total number of events:              319444
+    total time taken by event execution: 12.8914
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.04ms
+         max:                               1704.07ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           39930.5000/6036.52
+    execution time (avg/stddev):   1.6114/0.87
+
+Performing test RW-4k-8T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+(last message repeated 2 times)
+FATAL: Incorrect file discovered in request
+(last message repeated 4 times)
+Done.
+
+Operations performed:  0 Read, 282648 Write, 182255 Other = 464903 Total
+Read 0b  Written 1.0782Gb  Total transferred 1.0782Gb  (20.343Mb/sec)
+ 5207.79 Requests/sec executed
+
+Test execution summary:
+    total time:                          54.2741s
+    total number of events:              282648
+    total time taken by event execution: 3.2698
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.01ms
+         max:                                  2.54ms
+         approx.  95 percentile:               0.01ms
+
+Threads fairness:
+    events (avg/stddev):           35331.0000/16684.50
+    execution time (avg/stddev):   0.4087/0.18
+
+Performing test RW-4k-16T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+FATAL: Incorrect file discovered in request
+(last message repeated 14 times)
+Done.
+
+Operations performed:  0 Read, 242093 Write, 152386 Other = 394479 Total
+Read 0b  Written 945.68Mb  Total transferred 945.68Mb  (33.133Mb/sec)
+ 8482.01 Requests/sec executed
+
+Test execution summary:
+    total time:                          28.5419s
+    total number of events:              242093
+    total time taken by event execution: 5.3356
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.02ms
+         max:                                 44.65ms
+         approx.  95 percentile:               0.02ms
+
+Threads fairness:
+    events (avg/stddev):           15130.8125/531.57
+    execution time (avg/stddev):   0.3335/0.03
+
+Performing test RW-4k-16T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+(last message repeated 1 times)
+Time limit exceeded, exiting...
+(last message repeated 13 times)
+Done.
+
+Operations performed:  0 Read, 437324 Write, 275353 Other = 712677 Total
+Read 0b  Written 1.6683Gb  Total transferred 1.6683Gb  (27.743Mb/sec)
+ 7102.15 Requests/sec executed
+
+Test execution summary:
+    total time:                          61.5763s
+    total number of events:              437324
+    total time taken by event execution: 23.4820
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.05ms
+         max:                               1735.46ms
+         approx.  95 percentile:               0.02ms
+
+Threads fairness:
+    events (avg/stddev):           27332.7500/7498.45
+    execution time (avg/stddev):   1.4676/1.11
+
+Performing test RW-4k-16T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+Time limit exceeded, exiting...
+(last message repeated 14 times)
+Done.
+
+Operations performed:  0 Read, 473645 Write, 297589 Other = 771234 Total
+Read 0b  Written 1.8068Gb  Total transferred 1.8068Gb  (30.834Mb/sec)
+ 7893.49 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0045s
+    total number of events:              473645
+    total time taken by event execution: 18.9169
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.04ms
+         max:                               1684.02ms
+         approx.  95 percentile:               0.02ms
+
+Threads fairness:
+    events (avg/stddev):           29602.8125/4361.19
+    execution time (avg/stddev):   1.1823/0.81
+
+Performing test RW-4k-16T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+64 files, 64Mb each
+4Gb total file size
+Block size 4Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random write test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+Time limit exceeded, exiting...
+(last message repeated 14 times)
+Done.
+
+Operations performed:  0 Read, 447867 Write, 281575 Other = 729442 Total
+Read 0b  Written 1.7085Gb  Total transferred 1.7085Gb  (29.157Mb/sec)
+ 7464.24 Requests/sec executed
+
+Test execution summary:
+    total time:                          60.0017s
+    total number of events:              447867
+    total time taken by event execution: 14.7996
+    per-request statistics:
+         min:                                  0.00ms
+         avg:                                  0.03ms
+         max:                               1727.48ms
+         approx.  95 percentile:               0.02ms
+
+Threads fairness:
+    events (avg/stddev):           27991.6875/6975.06
+    execution time (avg/stddev):   0.9250/0.70
+

@@ -1,0 +1,980 @@
+Performing test IPC-SQL-1T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            125706
+        write:                           44895
+        other:                           17958
+        total:                           188559
+    transactions:                        8979   (147.25 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 170601 (2797.71 per sec.)
+    other operations:                    17958  (294.50 per sec.)
+
+Test execution summary:
+    total time:                          60.9787s
+    total number of events:              8979
+    total time taken by event execution: 60.9271
+    per-request statistics:
+         min:                                  3.90ms
+         avg:                                  6.79ms
+         max:                               1791.22ms
+         approx.  95 percentile:               7.51ms
+
+Threads fairness:
+    events (avg/stddev):           8979.0000/0.00
+    execution time (avg/stddev):   60.9271/0.00
+
+Performing test IPC-SQL-1T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            119854
+        write:                           42805
+        other:                           17122
+        total:                           179781
+    transactions:                        8561   (142.67 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 162659 (2710.76 per sec.)
+    other operations:                    17122  (285.34 per sec.)
+
+Test execution summary:
+    total time:                          60.0049s
+    total number of events:              8561
+    total time taken by event execution: 59.9539
+    per-request statistics:
+         min:                                  3.90ms
+         avg:                                  7.00ms
+         max:                               1754.45ms
+         approx.  95 percentile:               8.44ms
+
+Threads fairness:
+    events (avg/stddev):           8561.0000/0.00
+    execution time (avg/stddev):   59.9539/0.00
+
+Performing test IPC-SQL-1T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            127204
+        write:                           45430
+        other:                           18172
+        total:                           190806
+    transactions:                        9086   (151.43 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 172634 (2877.13 per sec.)
+    other operations:                    18172  (302.86 per sec.)
+
+Test execution summary:
+    total time:                          60.0022s
+    total number of events:              9086
+    total time taken by event execution: 59.9504
+    per-request statistics:
+         min:                                  3.85ms
+         avg:                                  6.60ms
+         max:                               1780.13ms
+         approx.  95 percentile:               7.67ms
+
+Threads fairness:
+    events (avg/stddev):           9086.0000/0.00
+    execution time (avg/stddev):   59.9504/0.00
+
+Performing test IPC-SQL-1T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 1
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            123858
+        write:                           44235
+        other:                           17694
+        total:                           185787
+    transactions:                        8847   (147.43 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 168093 (2801.12 per sec.)
+    other operations:                    17694  (294.85 per sec.)
+
+Test execution summary:
+    total time:                          60.0092s
+    total number of events:              8847
+    total time taken by event execution: 59.9581
+    per-request statistics:
+         min:                                  3.85ms
+         avg:                                  6.78ms
+         max:                               1815.39ms
+         approx.  95 percentile:               8.02ms
+
+Threads fairness:
+    events (avg/stddev):           8847.0000/0.00
+    execution time (avg/stddev):   59.9581/0.00
+
+Performing test IPC-SQL-2T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            207032
+        write:                           73940
+        other:                           29576
+        total:                           310548
+    transactions:                        14788  (246.46 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 280972 (4682.71 per sec.)
+    other operations:                    29576  (492.92 per sec.)
+
+Test execution summary:
+    total time:                          60.0020s
+    total number of events:              14788
+    total time taken by event execution: 119.9202
+    per-request statistics:
+         min:                                  3.53ms
+         avg:                                  8.11ms
+         max:                               1816.98ms
+         approx.  95 percentile:              16.48ms
+
+Threads fairness:
+    events (avg/stddev):           7394.0000/8.00
+    execution time (avg/stddev):   59.9601/0.00
+
+Performing test IPC-SQL-2T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            210518
+        write:                           75185
+        other:                           30074
+        total:                           315777
+    transactions:                        15037  (246.20 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 285703 (4677.80 per sec.)
+    other operations:                    30074  (492.40 per sec.)
+
+Test execution summary:
+    total time:                          61.0764s
+    total number of events:              15037
+    total time taken by event execution: 122.0629
+    per-request statistics:
+         min:                                  3.57ms
+         avg:                                  8.12ms
+         max:                               1745.43ms
+         approx.  95 percentile:              16.33ms
+
+Threads fairness:
+    events (avg/stddev):           7518.5000/3.50
+    execution time (avg/stddev):   61.0314/0.00
+
+Performing test IPC-SQL-2T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            203462
+        write:                           72665
+        other:                           29066
+        total:                           305193
+    transactions:                        14533  (242.20 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 276127 (4601.80 per sec.)
+    other operations:                    29066  (484.40 per sec.)
+
+Test execution summary:
+    total time:                          60.0041s
+    total number of events:              14533
+    total time taken by event execution: 119.9237
+    per-request statistics:
+         min:                                  3.64ms
+         avg:                                  8.25ms
+         max:                               1744.96ms
+         approx.  95 percentile:              16.73ms
+
+Threads fairness:
+    events (avg/stddev):           7266.5000/8.50
+    execution time (avg/stddev):   59.9618/0.00
+
+Performing test IPC-SQL-2T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 2
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 1 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            213808
+        write:                           76360
+        other:                           30544
+        total:                           320712
+    transactions:                        15272  (254.46 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 290168 (4834.73 per sec.)
+    other operations:                    30544  (508.92 per sec.)
+
+Test execution summary:
+    total time:                          60.0174s
+    total number of events:              15272
+    total time taken by event execution: 119.9378
+    per-request statistics:
+         min:                                  3.54ms
+         avg:                                  7.85ms
+         max:                               1732.90ms
+         approx.  95 percentile:              16.18ms
+
+Threads fairness:
+    events (avg/stddev):           7636.0000/1.00
+    execution time (avg/stddev):   59.9689/0.00
+
+Performing test IPC-SQL-3T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            253806
+        write:                           90634
+        other:                           36255
+        total:                           380695
+    transactions:                        18126  (302.08 per sec.)
+    deadlocks:                           3      (0.05 per sec.)
+    read/write requests:                 344440 (5740.27 per sec.)
+    other operations:                    36255  (604.21 per sec.)
+
+Test execution summary:
+    total time:                          60.0041s
+    total number of events:              18126
+    total time taken by event execution: 179.8917
+    per-request statistics:
+         min:                                  3.70ms
+         avg:                                  9.92ms
+         max:                               1732.58ms
+         approx.  95 percentile:              19.61ms
+
+Threads fairness:
+    events (avg/stddev):           6042.0000/7.12
+    execution time (avg/stddev):   59.9639/0.00
+
+Performing test IPC-SQL-3T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            253106
+        write:                           90386
+        other:                           36154
+        total:                           379646
+    transactions:                        18075  (301.22 per sec.)
+    deadlocks:                           4      (0.07 per sec.)
+    read/write requests:                 343492 (5724.31 per sec.)
+    other operations:                    36154  (602.51 per sec.)
+
+Test execution summary:
+    total time:                          60.0058s
+    total number of events:              18075
+    total time taken by event execution: 179.8967
+    per-request statistics:
+         min:                                  3.60ms
+         avg:                                  9.95ms
+         max:                               1702.94ms
+         approx.  95 percentile:              19.65ms
+
+Threads fairness:
+    events (avg/stddev):           6025.0000/14.72
+    execution time (avg/stddev):   59.9656/0.00
+
+Performing test IPC-SQL-3T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            253008
+        write:                           90355
+        other:                           36142
+        total:                           379505
+    transactions:                        18070  (301.15 per sec.)
+    deadlocks:                           2      (0.03 per sec.)
+    read/write requests:                 343363 (5722.44 per sec.)
+    other operations:                    36142  (602.34 per sec.)
+
+Test execution summary:
+    total time:                          60.0029s
+    total number of events:              18070
+    total time taken by event execution: 179.8914
+    per-request statistics:
+         min:                                  3.61ms
+         avg:                                  9.96ms
+         max:                               1722.77ms
+         approx.  95 percentile:              19.87ms
+
+Threads fairness:
+    events (avg/stddev):           6023.3333/10.66
+    execution time (avg/stddev):   59.9638/0.00
+
+Performing test IPC-SQL-3T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 3
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 2 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            259448
+        write:                           92651
+        other:                           37061
+        total:                           389160
+    transactions:                        18529  (308.79 per sec.)
+    deadlocks:                           3      (0.05 per sec.)
+    read/write requests:                 352099 (5867.87 per sec.)
+    other operations:                    37061  (617.64 per sec.)
+
+Test execution summary:
+    total time:                          60.0046s
+    total number of events:              18529
+    total time taken by event execution: 179.8907
+    per-request statistics:
+         min:                                  3.71ms
+         avg:                                  9.71ms
+         max:                               1708.24ms
+         approx.  95 percentile:              19.60ms
+
+Threads fairness:
+    events (avg/stddev):           6176.3333/16.42
+    execution time (avg/stddev):   59.9636/0.00
+
+Performing test IPC-SQL-4T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            287602
+        write:                           102711
+        other:                           41084
+        total:                           431397
+    transactions:                        20541  (334.31 per sec.)
+    deadlocks:                           2      (0.03 per sec.)
+    read/write requests:                 390313 (6352.44 per sec.)
+    other operations:                    41084  (668.65 per sec.)
+
+Test execution summary:
+    total time:                          61.4430s
+    total number of events:              20541
+    total time taken by event execution: 245.6283
+    per-request statistics:
+         min:                                  3.76ms
+         avg:                                 11.96ms
+         max:                               1695.92ms
+         approx.  95 percentile:              22.49ms
+
+Threads fairness:
+    events (avg/stddev):           5135.2500/15.11
+    execution time (avg/stddev):   61.4071/0.00
+
+Performing test IPC-SQL-4T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            288456
+        write:                           103011
+        other:                           41205
+        total:                           432672
+    transactions:                        20601  (334.94 per sec.)
+    deadlocks:                           3      (0.05 per sec.)
+    read/write requests:                 391467 (6364.61 per sec.)
+    other operations:                    41205  (669.93 per sec.)
+
+Test execution summary:
+    total time:                          61.5068s
+    total number of events:              20601
+    total time taken by event execution: 245.8855
+    per-request statistics:
+         min:                                  3.89ms
+         avg:                                 11.94ms
+         max:                               1726.62ms
+         approx.  95 percentile:              22.58ms
+
+Threads fairness:
+    events (avg/stddev):           5150.2500/12.74
+    execution time (avg/stddev):   61.4714/0.00
+
+Performing test IPC-SQL-4T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            284228
+        write:                           101490
+        other:                           40598
+        total:                           426316
+    transactions:                        20296  (338.24 per sec.)
+    deadlocks:                           6      (0.10 per sec.)
+    read/write requests:                 385718 (6428.17 per sec.)
+    other operations:                    40598  (676.58 per sec.)
+
+Test execution summary:
+    total time:                          60.0043s
+    total number of events:              20296
+    total time taken by event execution: 239.8700
+    per-request statistics:
+         min:                                  3.81ms
+         avg:                                 11.82ms
+         max:                               1729.91ms
+         approx.  95 percentile:              22.94ms
+
+Threads fairness:
+    events (avg/stddev):           5074.0000/5.61
+    execution time (avg/stddev):   59.9675/0.00
+
+Performing test IPC-SQL-4T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            287168
+        write:                           102540
+        other:                           41018
+        total:                           430726
+    transactions:                        20506  (341.27 per sec.)
+    deadlocks:                           6      (0.10 per sec.)
+    read/write requests:                 389708 (6485.73 per sec.)
+    other operations:                    41018  (682.64 per sec.)
+
+Test execution summary:
+    total time:                          60.0870s
+    total number of events:              20506
+    total time taken by event execution: 240.1927
+    per-request statistics:
+         min:                                  3.84ms
+         avg:                                 11.71ms
+         max:                               1737.46ms
+         approx.  95 percentile:              22.20ms
+
+Threads fairness:
+    events (avg/stddev):           5126.5000/7.09
+    execution time (avg/stddev):   60.0482/0.01
+
+Performing test IPC-SQL-8T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 7 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            335790
+        write:                           119910
+        other:                           47965
+        total:                           503665
+    transactions:                        23980  (399.63 per sec.)
+    deadlocks:                           5      (0.08 per sec.)
+    read/write requests:                 455700 (7594.26 per sec.)
+    other operations:                    47965  (799.34 per sec.)
+
+Test execution summary:
+    total time:                          60.0058s
+    total number of events:              23980
+    total time taken by event execution: 479.8646
+    per-request statistics:
+         min:                                  4.78ms
+         avg:                                 20.01ms
+         max:                               1715.40ms
+         approx.  95 percentile:              35.04ms
+
+Threads fairness:
+    events (avg/stddev):           2997.5000/13.58
+    execution time (avg/stddev):   59.9831/0.00
+
+Performing test IPC-SQL-8T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 7 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            338604
+        write:                           120930
+        other:                           48372
+        total:                           507906
+    transactions:                        24186  (402.97 per sec.)
+    deadlocks:                           0      (0.00 per sec.)
+    read/write requests:                 459534 (7656.39 per sec.)
+    other operations:                    48372  (805.94 per sec.)
+
+Test execution summary:
+    total time:                          60.0197s
+    total number of events:              24186
+    total time taken by event execution: 479.9110
+    per-request statistics:
+         min:                                  4.75ms
+         avg:                                 19.84ms
+         max:                               1691.12ms
+         approx.  95 percentile:              34.45ms
+
+Threads fairness:
+    events (avg/stddev):           3023.2500/19.77
+    execution time (avg/stddev):   59.9889/0.01
+
+Performing test IPC-SQL-8T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 7 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            337876
+        write:                           120661
+        other:                           48265
+        total:                           506802
+    transactions:                        24131  (402.06 per sec.)
+    deadlocks:                           3      (0.05 per sec.)
+    read/write requests:                 458537 (7639.96 per sec.)
+    other operations:                    48265  (804.17 per sec.)
+
+Test execution summary:
+    total time:                          60.0183s
+    total number of events:              24131
+    total time taken by event execution: 479.9031
+    per-request statistics:
+         min:                                  4.84ms
+         avg:                                 19.89ms
+         max:                               1724.66ms
+         approx.  95 percentile:              34.03ms
+
+Threads fairness:
+    events (avg/stddev):           3016.3750/14.33
+    execution time (avg/stddev):   59.9879/0.00
+
+Performing test IPC-SQL-8T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 8
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 7 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            339360
+        write:                           121193
+        other:                           48478
+        total:                           509031
+    transactions:                        24238  (401.28 per sec.)
+    deadlocks:                           2      (0.03 per sec.)
+    read/write requests:                 460553 (7624.92 per sec.)
+    other operations:                    48478  (802.60 per sec.)
+
+Test execution summary:
+    total time:                          60.4011s
+    total number of events:              24238
+    total time taken by event execution: 483.0389
+    per-request statistics:
+         min:                                  4.73ms
+         avg:                                 19.93ms
+         max:                               1690.82ms
+         approx.  95 percentile:              33.62ms
+
+Threads fairness:
+    events (avg/stddev):           3029.7500/15.36
+    execution time (avg/stddev):   60.3799/0.00
+
+Performing test IPC-SQL-16T-1
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            366562
+        write:                           130910
+        other:                           52364
+        total:                           549836
+    transactions:                        26181  (436.19 per sec.)
+    deadlocks:                           2      (0.03 per sec.)
+    read/write requests:                 497472 (8288.16 per sec.)
+    other operations:                    52364  (872.41 per sec.)
+
+Test execution summary:
+    total time:                          60.0220s
+    total number of events:              26181
+    total time taken by event execution: 959.9781
+    per-request statistics:
+         min:                                  5.40ms
+         avg:                                 36.67ms
+         max:                               1732.95ms
+         approx.  95 percentile:              55.42ms
+
+Threads fairness:
+    events (avg/stddev):           1636.3125/11.22
+    execution time (avg/stddev):   59.9986/0.01
+
+Performing test IPC-SQL-16T-2
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            367388
+        write:                           131207
+        other:                           52483
+        total:                           551078
+    transactions:                        26241  (437.13 per sec.)
+    deadlocks:                           1      (0.02 per sec.)
+    read/write requests:                 498595 (8305.78 per sec.)
+    other operations:                    52483  (874.28 per sec.)
+
+Test execution summary:
+    total time:                          60.0299s
+    total number of events:              26241
+    total time taken by event execution: 960.2737
+    per-request statistics:
+         min:                                  5.03ms
+         avg:                                 36.59ms
+         max:                               1703.11ms
+         approx.  95 percentile:              56.04ms
+
+Threads fairness:
+    events (avg/stddev):           1640.0625/14.24
+    execution time (avg/stddev):   60.0171/0.00
+
+Performing test IPC-SQL-16T-3
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            364630
+        write:                           130214
+        other:                           52086
+        total:                           546930
+    transactions:                        26041  (433.81 per sec.)
+    deadlocks:                           4      (0.07 per sec.)
+    read/write requests:                 494844 (8243.56 per sec.)
+    other operations:                    52086  (867.70 per sec.)
+
+Test execution summary:
+    total time:                          60.0279s
+    total number of events:              26041
+    total time taken by event execution: 960.1319
+    per-request statistics:
+         min:                                  4.74ms
+         avg:                                 36.87ms
+         max:                               1724.71ms
+         approx.  95 percentile:              55.12ms
+
+Threads fairness:
+    events (avg/stddev):           1627.5625/17.17
+    execution time (avg/stddev):   60.0082/0.01
+
+Performing test IPC-SQL-16T-4
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Doing OLTP test.
+Running mixed OLTP test
+Using Special distribution (12 iterations,  1 pct of values are returned in 75 pct cases)
+Using "BEGIN" for starting transactions
+Using auto_inc on the id column
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+OLTP test statistics:
+    queries performed:
+        read:                            370384
+        write:                           132269
+        other:                           52908
+        total:                           555561
+    transactions:                        26452  (429.23 per sec.)
+    deadlocks:                           4      (0.06 per sec.)
+    read/write requests:                 502653 (8156.47 per sec.)
+    other operations:                    52908  (858.53 per sec.)
+
+Test execution summary:
+    total time:                          61.6263s
+    total number of events:              26452
+    total time taken by event execution: 985.4245
+    per-request statistics:
+         min:                                  5.34ms
+         avg:                                 37.25ms
+         max:                               3155.19ms
+         approx.  95 percentile:              55.29ms
+
+Threads fairness:
+    events (avg/stddev):           1653.2500/16.38
+    execution time (avg/stddev):   61.5890/0.01
+
